@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "epam-2016",
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -15,5 +15,25 @@
     "gulp-uncss": "^1.0.5",
     "gulp-useref": "^3.1.0",
     "wiredep": "^4.0.0"
-  }
+  },
+  "description": "final task",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teadrinker95/epam_final_task_2016.git"
+  },
+  "keywords": [
+    "epam",
+    "final",
+    "2016"
+  ],
+  "author": "teadrinker95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teadrinker95/epam_final_task_2016/issues"
+  },
+  "homepage": "https://github.com/teadrinker95/epam_final_task_2016#readme"
 }

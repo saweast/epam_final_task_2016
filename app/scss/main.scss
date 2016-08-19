@@ -1,8 +1,9 @@
 $background: #5373c6;
 $font: #330305;
+body
+{
+    font-size: 14px;
 
-body {
-  background: $background;
-  font-size: 14px;
-  color: $font;
+    color: $font;
+    background: $background;
 }

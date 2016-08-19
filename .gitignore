@@ -48,3 +48,4 @@ Temporary Items
 
 app/bower_components
 .idea/
+node_modules/
