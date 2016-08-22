@@ -29,6 +29,7 @@ gulp.task('css', function () {
         .pipe(prefix('last 3 versions'))
         .pipe(cleanCss())
         .pipe(gulp.dest('app/css'))
+        .pipe(notify('SCSS -> CSS'))
         .pipe(connect.reload());
 });
 // убирает неиспользованый css
