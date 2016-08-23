@@ -2,27 +2,38 @@ $mColor: #000;
 $sColor: #666;
 $ssColor: #999;
 $sBorder: #ccc;
-$vireColor: #ff3366;
+$vireColor: #f36;
 $maxWidth: 1180px;
-$helvetica: 'Roboto', sans-serif;
-$futura: 'Open Sans', sans-serif;
-$times: 'Crimson Text', serif;
+$helvetica: 'Roboto',
+sans-serif;
+$futura: 'Open Sans',
+sans-serif;
+$times: 'Crimson Text',
+serif;
 h1 {
-	font-size: 1.875em;
+    font-size: 1.875em;
 }
+
 h1 a {
-	text-decoration: none;
-	color: $mColor;
-	font-family: $futura;
+    font-family: $futura;
+    text-decoration: none;
+    color: $mColor;
 }
+
 img {
-	width: 100%;
+    width: 100%;
 }
+
+button {
+	cursor: pointer;
+}
+
 .clear:after,
 .clear:before {
-	content: "";
-	display: table;
+    display: table;
+    content: '';
 }
+
 .clear:after {
-	clear: both;	
+    clear: both;
 }
