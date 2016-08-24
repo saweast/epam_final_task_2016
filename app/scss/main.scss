@@ -270,10 +270,9 @@ footer {
             float: left;
             box-sizing: border-box;
             width: 33.33%;
-
             .nav__footer {
-            	position: relative;
-            	top: -6px;
+                position: relative;
+                top: -6px;
                 li {
                     float: right;
                     margin-right: 40px;
@@ -294,10 +293,8 @@ footer {
                 font-size: 1.125em;
                 margin: 0;
                 text-align: center;
-                
-                	position: relative;
-                	top: -6px;
-                
+                position: relative;
+                top: -6px;
                 span {
                     font-weight: 400;
                     position: relative;
@@ -321,13 +318,13 @@ footer {
             font-weight: 700;
             margin: 0 auto;
             p {
-            	margin: 0;
+                margin: 0;
             }
             a {
                 text-decoration: none;
                 color: $mColor;
-                &:hover {
-                	text-decoration: underline;
+                :hover {
+                    text-decoration: underline;
                 }
             }
         }
@@ -426,6 +423,47 @@ footer {
             color: $mColor;
             &:hover {
                 text-decoration: underline;
+            }
+        }
+    }
+}
+
+section.slider {
+	max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    .item {
+        div.w {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 75%;
+            float:left;
+            .block {
+            	width: 33.33%;
+            	&--width {
+                	width: 66.66%;
+	            }
+	            &--height {
+	                height: 770px;
+	            }
+            }
+        }
+        position: relative;
+        .block {
+            display: inline-block;
+            height: 385px;
+            float: left;
+            width: 25%;
+            border: 2px solid red;
+            background: #c4c4c4;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            &--width {
+                width: 50%;
+            }
+            &--height {
+                height: 770px;
             }
         }
     }
