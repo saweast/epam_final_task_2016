@@ -434,13 +434,71 @@ footer {
 }
 
 section.slider {
+	position: relative;
     margin: 0 auto;
     background: linear-gradient(to right,#fff, #f7f7f7);
     width: 100%;
     .item {
+    	&:nth-child(3) {
+    		position: relative;
+    		background-color: #f5de75;
+    		a {
+    			text-decoration: none;
+    			display: inline-block;
+    			height: 100%;
+    			width: 100%;
+    		}
+    		h3 {
+    			position: absolute;
+    			font-size: 13.125em;
+    			font-family: $futura;
+    			color: white;
+    			text-align: center;
+    			margin: 0;
+    			position: relative;
+    			top: 20%;
+    			bottom: 35%;
+    		}
+    		p {
+    			position: absolute;
+    			font-family: $futura;
+    			font-size: 1.625em;
+    			color: $mColor;
+    			font-weight: 700;
+    			bottom: 25%;
+    			text-align: center;
+    			width: 100%;
+    			span {
+    				position: static;
+    				font-family: $futura;
+    				color: #50c1e9;
+    				font-style: normal;
+    			} 
+    		}
+    		span {
+				position: absolute;
+				font-size: 1em;
+				font-family: $times;
+				font-style: italic;
+				color: $mColor;
+				bottom: 25%;
+    			text-align: center;
+    			width: 100%;
+    		}
+    		.reebok {
+    			position: absolute;
+    			top: 0;
+    			height: 100%;
+    			width: 100%;
+				background-position: center 20%;
+				background-size: auto;
+				background-repeat: no-repeat;
+				background-image: url('../img/reebok.png');
+    		}
+    	}
     	max-width: 1300px;
     	margin: 0 auto;
-
+		height: 850px;
         div.w {
             display: inline-block;
             box-sizing: border-box;
@@ -560,7 +618,7 @@ section.slider {
         	}
         	&.block--height {
 	    		background-image: url('../img/photos-girl.png');
-	    		background-position: 110% 0;	
+	    		background-position: 85% 0;	
 	    		.text {
 	    			top: 7%;
 					
@@ -571,8 +629,9 @@ section.slider {
 }
 .slider__navigation {
 	height: 80px;
-	
-	
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 	border-top: 1px solid rgba(0,0,0,0.1);
 	text-align: center;
 	ul {
