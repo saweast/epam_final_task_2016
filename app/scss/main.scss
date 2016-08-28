@@ -435,17 +435,29 @@ section.slider {
     position: relative;
     width: 100%;
     margin: 0 auto;
+    background: -webkit-linear-gradient(left, #fff, #f7f7f7);
     background: linear-gradient(to right, #fff, #f7f7f7);
     .slider__wrapper {
-        width: 100%;
         overflow: hidden;
+        width: 100%;
         max-width: 1180px;
         margin: 0 auto;
         &--nado {
+            position: relative;
             overflow: hidden;
             width: 10000px;
             height: 850px;
-            position: relative;
+            -webkit-transition: 2s ease 0s;
+            transition: 2s ease 0s;
+            &.one {
+                left: 0;
+            }
+            &.two {
+                left: -1180px;
+            }
+            &.three {
+                left: -2360px;
+            }
         }
     }
     .item {
